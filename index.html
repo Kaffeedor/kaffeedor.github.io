@@ -7,6 +7,15 @@
     <title>Kaffeedor</title>
 </head>
 <body>
+    <button id="clickme">Clicks: 0</button>
+    <script>
+        var button = document.getElementById("clickme"), count = 0;
+        button.onclick = function() {
+            count += 1;
+            button.innerHTML = "Clicks: " + count;
+        };
+    </script>
+
     <h1>Title lol</h1>
 </body>
 </html>
