@@ -2,8 +2,8 @@ body {
     background-color: #53405e;
   }
   h1 {
-    color: blue;
+    color: rgb(44, 44, 44);
   }
   p {
-    color: red;
+    color: rgb(224, 224, 224);
   }
