@@ -1,7 +1,5 @@
-var count = 0;
-var countButton = document.getElementById("countButton");
-var displayCount = document.getElementById("displayCount");
-countButton.onclick = function(){
-  count++;
-  displayCount.innerHTML = count;
-}
+var button = document.getElementById("clickme"), count = 0;
+        button.onclick = function() {
+            count += 1;
+            button.innerHTML = "Clicks: " + count;
+        };
