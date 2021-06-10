@@ -1,30 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" onclick="clicked()">
 <head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaffeedor</title>
+    <title>Nightside</title>
 </head>
-<body>
+<body text="#c0c0c0" style="background-color:#202020;">
     <!-- <div style="position: fixed; z-index: -99; width: 100%; height: 100%"> <iframe frameborder="0" height="100%" width="100%" src="https://youtube.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0&showinfo=0&autohide=1"> </iframe> </div>  -->
-    <button id="clickme">Clicks: 0</button>
-    <script>
-        var button = document.getElementById("clickme"), count = 0;
-        button.onclick = function() {
-            count += 1;
-            console.log(count);
-            button.innerHTML = "Clicks: " + count;
-        };
-    </script>
-    <h1 text-align="center">Kaffeedors Cool Website😎</h1>
-    <p> Never gonna give you up </br>
-        Never gonna let you down </br> 
-        Never gonna run around and desert you </br> 
-        Never gonna make you cry </br>
-        Never gonna say goodbye </br> 
-        Never gonna tell a lie and hurt you </br> 
-    </p>
+    <p>Score: <span id="scoreSpan"></span></p>
+    <center>
+    <h1>Nightside</h1>
+    </center>
 </body>
+<script src="script.js"></script>
 </html>
