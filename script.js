@@ -5,7 +5,7 @@ function clicked() {
     document.getElementById("scoreSpan").innerHTML = score;
 }
 var scoreL=0;
-function clicked() {
+function clickedL() {
     console.log("Clicked");
     score++;
     document.getElementById("scoreSpanL").innerHTML = score;
