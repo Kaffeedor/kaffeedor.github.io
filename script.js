@@ -4,3 +4,9 @@ function clicked() {
     score++;
     document.getElementById("scoreSpan").innerHTML = score;
 }
+var scoreL=0;
+function clicked() {
+    console.log("Clicked");
+    score++;
+    document.getElementById("scoreSpanL").innerHTML = score;
+}
